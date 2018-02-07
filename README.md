@@ -50,3 +50,7 @@ About main files.
 | graph_temp.plt | display graph only |
 | save_temp_graph.plt | save cpu temprature graph |
 | savetemp.sh | save cpu temprature in log |
+
+## Problem
+
+The biggest problem is the trouble of installation. It maight be easier if create a installation script file.
