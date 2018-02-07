@@ -2,7 +2,7 @@
 
 Graph temp is programs that acquires the cpu temperature and outputs it on the graph. It cosists of several script files and C program.
 
-# Environment
+## Environment
 
 Graph temp has confirmed the operation with Ubuntu 16.04 and Raspbian.
 
