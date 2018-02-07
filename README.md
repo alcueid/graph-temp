@@ -39,3 +39,14 @@ $ crontab -e
 * * * * * sh /home/user/graph-temp/savetemp.sh /home/user/graph-temp/log/
 0 0 * * * /usr/bin/gnuplot -e "src='/home/usr/graph-temp/log/$(date +\%F --date "1 day ago")_temp.log'; dst='/home/user/graph-temp/log/$(date +\%F --date "1 day ago")_temp'" /home/usr/graph-temp/save_temp_graph.plt
 ```
+
+## Filelist
+
+About main files.
+
+| Name | Description |
+|:-----|:------------|
+| aggre | aggregates cpu temprature log |
+| graph_temp.plt | display graph only |
+| save_temp_graph.plt | save cpu temprature graph |
+| savetemp.sh | save cpu temprature in log |
