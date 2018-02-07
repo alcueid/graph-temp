@@ -1,6 +1,11 @@
-batch.o: batch.c
-	gcc batch.c -Wall -g -o batch
-	./batch /mnt/dd/Dropbox/github/graph-temp/sample/ 2018-02-07 2018-02-13
+upload:
+	git add -A
+	git commit
+	git push origin working-branch
 
-exec:
-	./batch /mnt/dd/Dropbox/github/graph-temp/sample/ 2018-02-07 2018-02-13
+compile: aggre.c
+	gcc aggre.c -Wall -g -o aggre
+
+aggregate:
+	./aggre /mnt/dd/Dropbox/github/graph-temp/sample/ 2018-02-07 2018-02-13
+
